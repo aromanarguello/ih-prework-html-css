@@ -1,7 +1,14 @@
-body {
+body{
   background: rgb(244, 248, 249);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  background: rgb(255, 255, 255);
   border-radius: 8px;
-  width: 670px;
+  width: 40%;
   height: 250px;
   border: 3px solid rgb(225, 232, 237);
   font-family: Helvetica;
@@ -66,5 +73,5 @@ h2 {
   right: 43px;
   top: 16px;
   color: rgb(85, 172, 238);
-  font-size: 24px;
+  font-size: 24px;\
 }
