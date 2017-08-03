@@ -1,22 +1,71 @@
 body {
   background: rgb(244, 248, 249);
+  border-radius: 5px;
   width: 600px;
-  height: 180px;
-  border: 2px solid rgb(225, 232, 237);
+  height: 250px;
+  border: 3px solid rgb(225, 232, 237);
   font-family: Helvetica;
-}
-img {
-  padding: 30px 20px;
   position: fixed;
 }
-
 
 h2 {
   position: fixed;
   padding: 12px 135px;
 }
 
-logo {
-  padding: 90px;
-  poistion: fixed;
+.user {
+  padding: 43px 115px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  opacity: .5;
+}
+
+.text {
+  font-size: 20px;
+  color: rgb(105, 120, 130);
+  position: absolute;
+  top: 145px;
+  left: 20px;
+}
+
+.msg {
+  position: absolute;
+  bottom: 73px;
+  left: 20px;
+  font-size: 23px;
+}
+
+.retweets {
+  font-size: 20px;
+  color: rgb(105, 120, 130);
+  position: absolute;
+  bottom: -8px;
+  left: 105px;
+}
+
+.fav {
+  font-size: 20px;
+  color: rgb(105, 120, 130);
+  position: absolute;
+  bottom: -8px;
+  left: 220px;
+}
+
+.follow {
+  border: 2px solid rgb(85, 172, 238);
+  width: 135px;
+  height: 41px;
+  border-radius: 5px;
+  position: absolute;
+  right: 30px;
+  top: 32px;
+}
+
+.button {
+  position: absolute;
+  right: 43px;
+  top: 16px;
+  color: rgb(85, 172, 238);
+  font-size: 24px;
+
 }
